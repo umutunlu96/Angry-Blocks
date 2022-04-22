@@ -8,15 +8,11 @@ public class GameController : MonoBehaviour {
     [Header("Min - Max")]
     public int minBoxNumber;
     public int maxBoxNumber;
-    [Header("Blocks")]
-    public GameObject objects;
-    public Vector2 spawnObjPos;
 
     [HideInInspector]public Text ballsCountText;
     private ShotCountText shotCountText;
 
     private GameObject[] block;
-
 
     public int shotCount;
     public int score;
@@ -43,9 +39,9 @@ public class GameController : MonoBehaviour {
 
         Physics2D.gravity = new Vector2(0, -17);
 
-        //SpawnNewLevel(minBoxNumber, maxBoxNumber);
         GameObject.Find("Cannon").GetComponent<Animator>().SetBool("MoveIn", true);
 
+        shotCount = 1;
     }
 
     void Update() {
@@ -61,19 +57,6 @@ public class GameController : MonoBehaviour {
             firstShot = true;
 
         CheckBlocks();
-    }
-
-    void SpawnNewLevel(int min, int max)
-    {
-        if(shotCount > 1)
-            Camera.main.GetComponent<CameraTransitions>().RotateCameraToFront();
-
-        shotCount = 1;
-
-        Instantiate(objects, spawnObjPos, Quaternion.identity);
-
-        SetBlocksCount(min, max);
-
     }
 
     void SetBlocksCount(int min, int max)
