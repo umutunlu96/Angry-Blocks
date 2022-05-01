@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1322,55 +1322,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4473d1f80a9b6db40b60a27d3acea2d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minBoxNumber: 1
+  maxBoxNumber: 5
   ballsCountText: {fileID: 0}
-  block: []
-  levels:
-  - {fileID: 2359, guid: d4106294e37148e5bf0611ead7f94791, type: 3}
-  - {fileID: 2637, guid: 2e05bd7e33b347219e91a8aae0eca5e7, type: 3}
-  - {fileID: 3381, guid: 5b51416f0f5146ba895fd6758156ee7c, type: 3}
-  - {fileID: 3376, guid: 06ca1a30be1f4f6dab1e631abd9d66f0, type: 3}
-  - {fileID: 5088, guid: 8e26704d495d4a13b08546f95e319577, type: 3}
-  - {fileID: 1562, guid: ce95b08bba934711a529fbb1854cd435, type: 3}
-  - {fileID: 4531, guid: d1ab6497138b489eb9439ae257858de9, type: 3}
-  - {fileID: 3844, guid: d17f5ef98aa240ccbf29df9e969464c1, type: 3}
-  - {fileID: 931, guid: 2ded24d96b524cc7b5bd071797bd636b, type: 3}
-  - {fileID: 1953, guid: 680f5c1f586342898702a92e5eb6936e, type: 3}
-  - {fileID: 1321, guid: b8063b992f984fb5ae01c23303907827, type: 3}
-  - {fileID: 1046, guid: df408218b757449da50577679f5b671d, type: 3}
-  - {fileID: 389, guid: 7e1e1e9f181c4ed8a4287600a2ae0802, type: 3}
-  - {fileID: 3470, guid: baac19825bf14dc1aa53f7247fe89510, type: 3}
-  - {fileID: 2254, guid: 7ca963838bf34a90bf8f56f8b7cb0353, type: 3}
-  - {fileID: 4820, guid: 002097f45e964ad99e175a4e45d18b85, type: 3}
-  - {fileID: 4126, guid: 11794432f628442389ad662fa5c183ef, type: 3}
-  - {fileID: 4679, guid: fc898fa18f6a43d88ae163a6620af71a, type: 3}
-  - {fileID: 3320, guid: ce4feac7839d4792b88607893cf91d15, type: 3}
-  - {fileID: 2543, guid: 1419c61553b440398b224e1c11f3352c, type: 3}
-  - {fileID: 705, guid: 538984cb51d44d498c29d95b330d21e0, type: 3}
-  - {fileID: 4945, guid: a651a9b5587a4171a0b1a01159d59cf2, type: 3}
-  - {fileID: 3483, guid: 68822284e4d448268931bdd9b2266ab6, type: 3}
-  - {fileID: 1716, guid: 0d139d256583452293d9dcf386c03a15, type: 3}
-  - {fileID: 5076, guid: 5cc54586959d41d2896d208e272936bc, type: 3}
-  - {fileID: 745, guid: a6dd6340c12b4b63ba711562184f293e, type: 3}
-  - {fileID: 2251, guid: 53f843db3d66406b89845c0fbd50a6c0, type: 3}
-  - {fileID: 5038, guid: 233d4ed181eb4a86a0321897c61394b4, type: 3}
-  - {fileID: 4011, guid: 2ab452160f3441ac8d80cef967fbb954, type: 3}
-  - {fileID: 212, guid: c306d8efd9104717a9c5406ac47fd43b, type: 3}
-  - {fileID: 3871, guid: 50f0ba7f4a35445083f8b49acb4aa92b, type: 3}
-  - {fileID: 895, guid: 799ce933abee446dad9a57121c35d53b, type: 3}
-  - {fileID: 286, guid: 3b03b29bced34eaf91de41f2ea4cbaa9, type: 3}
-  - {fileID: 451, guid: 6f36b63eb4664b9b9fea0a5ae221d9c6, type: 3}
-  - {fileID: 3520, guid: 4b6fd7b0a6c6489c98bce18b9df785ee, type: 3}
-  - {fileID: 644, guid: 5fb5fd806609430190852b9316579a98, type: 3}
-  - {fileID: 2221, guid: 8258ca6d103249eb9733734a8a4f3806, type: 3}
-  - {fileID: 5386, guid: 0998247ba8954a38ba1b7e77cf96b28f, type: 3}
-  - {fileID: 973, guid: 1517df44cd51445aa967e7091ff0aaed, type: 3}
-  - {fileID: 3586, guid: 294a60e1623f4a06802101daa2c40646, type: 3}
-  - {fileID: 806, guid: 174e3577619c403a9d094ff86f2345cd, type: 3}
-  - {fileID: 4290, guid: 13225626309a4e479fce76d7a1e68d76, type: 3}
-  - {fileID: 2386, guid: 87d5d88257db4509a753a4ee06218709, type: 3}
-  - {fileID: 5447, guid: b2cff1ab86bb479fa86d5dd4b8975c4b, type: 3}
-  - {fileID: 2684, guid: 740e756a7b6d42e9b96440b3e3a47faa, type: 3}
-  shotCount: 0
+  shotCount: 3
   score: 0
   ballsCount: 0
   gameOver: {fileID: 1780221855}
@@ -2622,7 +2577,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8426c372ada207c408e251e20e023983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 2
   ballPrefab: {fileID: 1878633997000866, guid: db323ddaf3396624fba2447a6939ac89, type: 3}
   ballsContainer: {fileID: 299391421}
 --- !u!1 &831750998

@@ -8,10 +8,11 @@ public class ShootScript : MonoBehaviour {
 
     private GameController gc;
 
-    public float power = 2;
+    private float power = 1.5f;
     private int dots = 15;
 
     private Vector2 startPos;
+    private Vector2 cannonPos;
 
     private bool shoot, aiming;
 
@@ -32,6 +33,7 @@ public class ShootScript : MonoBehaviour {
     void Start ()
     {
         projectilesPath = Dots.transform.Cast<Transform>().ToList().ConvertAll(t => t.gameObject);
+        cannonPos = gameObject.transform.position;
         HideDots();
     }
 	
@@ -79,7 +81,7 @@ public class ShootScript : MonoBehaviour {
 
     Vector2 ShootForce(Vector3 force)
     {
-        return (new Vector2(startPos.x, startPos.y) - new Vector2(force.x, force.y)) * power;
+        return (new Vector2(force.x, force.y) - new Vector2(cannonPos.x, cannonPos.y)) / power;
     }
 
     Vector2 DotPath(Vector2 startP, Vector2 startVel, float t)
