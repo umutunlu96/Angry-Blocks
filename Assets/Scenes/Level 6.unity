@@ -2676,7 +2676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8426c372ada207c408e251e20e023983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 2
   ballPrefab: {fileID: 1878633997000866, guid: db323ddaf3396624fba2447a6939ac89, type: 3}
   ballsContainer: {fileID: 299391421}
 --- !u!1 &831750998
@@ -3866,6 +3865,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SecondHuman (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231729973081863134, guid: 0b56deccb0427504e832ce2d0e55169e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7231729973081863135, guid: 0b56deccb0427504e832ce2d0e55169e,
         type: 3}

@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &27602913
+--- !u!1001 &41632063
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 8731277280416968858, guid: 14da193bc38feea47871e5f1c3fd8740,
         type: 3}
       propertyPath: m_Name
-      value: Level4Blocks
+      value: SimpleHouse
       objectReference: {fileID: 0}
     - target: {fileID: 8731277280416968859, guid: 14da193bc38feea47871e5f1c3fd8740,
         type: 3}
@@ -2646,7 +2646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8426c372ada207c408e251e20e023983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 2
   ballPrefab: {fileID: 1878633997000866, guid: db323ddaf3396624fba2447a6939ac89, type: 3}
   ballsContainer: {fileID: 299391421}
 --- !u!1 &831750998
